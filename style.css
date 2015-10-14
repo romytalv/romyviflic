@@ -32,7 +32,6 @@ html {
 body {
 	font:300 11px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	color:#444;
-	background-color: red;
 }
 /* clear */
 .clear:before,
@@ -419,7 +418,7 @@ a img.aligncenter {
 }
 
 .articles {
-	max-width: 500px;
+	max-width: 800px;
 	margin: 0 auto;
 }
 
@@ -434,18 +433,29 @@ a img.aligncenter {
     clear: both;
 }
 
+.articles h1 {
+	text-align: center;
+	font-size: 50px;
+	margin-top: 5px;
+	padding-top: 5px;
+	border-top: 2px solid #ccc;
+}
+
 .article {
-/*	border-left: 1px solid #ccc;*/
-	border-right: 1px dotted #ccc;;
+/*	border-left: 1px solid #ccc;
+	border-right: 1px dotted #ccc;*/
+	border-bottom: 2px solid #ccc;
 	margin-bottom: 30px;
 	width: 33.33%;
-	height: 400px;
+	height: 420px;
 	float: left;
 	padding: 0 15px 0;
+	text-align: center;
 }
 
 .article h2 {
-	margin: 0;
+	margin: 0 auto 15px;
+	font-size: 22px;
 }
 
 .article-image img {
@@ -457,10 +467,17 @@ a img.aligncenter {
 	display: block;
 }
 
+.article p {
+	text-align: justify;
+}
+
 .center {
 	font-size: 15px;
 }
 
+.read-more {
+	color: red;
+}
 
 /*------------------------------------*\
     ABOUT
