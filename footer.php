@@ -3,9 +3,11 @@
 				<div class="social-footer">
 					<a href="http://twitter.com/romyviflic"><i class="fa fa-twitter"></i></a>
         			<a href="mailto:romyviflic@gmail.com"><i class="fa fa-envelope-o"></i></a>
+        			<a href="https://plus.google.com/110270853031837849456/posts"><<i class="fa fa-google-plus"></i></a>
         		</div>
 
 			<!-- copyright -->
+			<br>
 			<p class="copyright">
 				&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <?php _e('Powered by', 'html5blank'); ?>
 				<a href="//wordpress.org" title="WordPress">WordPress</a> &amp; <a href="//html5blank.com" title="HTML5 Blank">HTML5 Blank</a>.

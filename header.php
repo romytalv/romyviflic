@@ -31,7 +31,7 @@
 		<div class="wrapper">
 
 			<!-- header -->
-			<header class="header clear" role="banner">
+			<header class="header clear" role="banner" style="background-image:url(<?php echo get_template_directory_uri(); ?>/img/flowerscopy.jpg)">
 
 					<!-- logo -->
 					<div class="logo">
@@ -42,10 +42,13 @@
 					<!-- /logo -->
 
 					<!-- nav -->
+
 					<nav class="nav" role="navigation">
 						<?php html5blank_nav('new_menu'); ?>
 					</nav>
 					<!-- /nav -->
+
+								<h1>Romy Viflic</h1>
 
 			</header>
 			<!-- /header -->

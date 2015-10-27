@@ -1,8 +1,8 @@
 <?php get_header(); ?>
-
+<!-- single.php -->
 	<main role="main">
 	<!-- section -->
-	<section>
+	<section class="about-page">
 
 	<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
